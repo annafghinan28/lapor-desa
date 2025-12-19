@@ -1,0 +1,25 @@
+# Gunakan LF sebagai default line ending
+* text=auto eol=lf
+
+# Pastikan file PHP, JS, CSS, HTML selalu pakai LF
+*.php text eol=lf
+*.js  text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+
+# File JSON, XML, SQL juga pakai LF
+*.json text eol=lf
+*.xml  text eol=lf
+*.sql  text eol=lf
+
+# Binary files (jangan diubah line ending)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.exe binary
+
+# Vendor folder biasanya hasil composer install, bisa diabaikan
+vendor/* linguist-vendored
